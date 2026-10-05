@@ -23148,11 +23148,3 @@ bash
 cd C:\Users\HP\multi-agent-ai-platform
 
 # Update .gitignore (paste new content manually first)
-
-# Remove sensitive files from tracking
-git rm --cached backend/.env
-git rm --cached frontend/.env
-git rm --cached backend/logs/app.log
-E - Generated Artifacts
-# ──────────────────────────────────────────
-backend/storage/*
